@@ -277,6 +277,7 @@ function run() {
   }
 }
 
+
 // Retry function
 function retry(){
   document.querySelector('#resultPage').style.display="none";
@@ -286,3 +287,12 @@ function retry(){
   run();
 }
 document.querySelector('#retry').addEventListener('click',retry);
+
+ function sendLinkCustom() {
+    Kakao.init("[c0695d9221da05822fdb6db554887653]");
+    Kakao.Link.sendCustom({
+    templateId: 51984,
+        });
+    }
+
+document.querySelector('#share').addEventListener('click',sendLinkCustom);
