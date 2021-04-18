@@ -288,11 +288,10 @@ function retry(){
 }
 document.querySelector('#retry').addEventListener('click',retry);
 
- function sendLinkCustom() {
-    Kakao.init("[c0695d9221da05822fdb6db554887653]");
-    Kakao.Link.sendCustom({
-    templateId: 51984,
-        });
-    }
 
-document.querySelector('#share').addEventListener('click',sendLinkCustom);
+function kakaoLink(){
+    Kakao.Link.sendCustom({
+      templateId: 51984,
+    });
+  }
+document.querySelector('#share').addEventListener('click', kakaoLink);
