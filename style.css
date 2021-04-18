@@ -11,17 +11,33 @@ body{
   display: none;
 }
 #Qtitle {
-  font-size: 2em;
+  font-size: 40px;
 }
 #Qdescription {
-  font-size: 1.5em;
+  font-size: 30px;
 }
-#A_a{
-  font-size: 1.25em;
+#A_a {
+  font-size: 20px;
 }
-#A_b{
-  font-size: 1.25em;
+#A_b {
+  font-size: 20px;
 }
+
+@media only screen and (max-width: 767px){
+  #Qtitle { font-size: 1.4rem; }
+}
+@media only screen and (max-width: 767px){
+  #Qdescription { font-size: 1.5rem; }
+}
+@media only screen and (max-width: 767px){
+    #A_a{ font-size: 1.25rem; }
+}
+@media only screen and (max-width: 767px){
+    #A_b{ font-size: 1.25rem; }
+}
+
+
+
 button {
   width: 95%;
 }
