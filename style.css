@@ -11,16 +11,16 @@ body{
   display: none;
 }
 #Qtitle {
-  font-size: 40px;
+  font-size: 2.5em;
 }
 #Qdescription {
-  font-size: 25px;
+  font-size: 1.5em;
 }
 #A_a{
-  font-size: 20px;
+  font-size: 1em;
 }
 #A_b{
-  font-size: 20px;
+  font-size: 1em;
 }
 button {
   width: 95%;
