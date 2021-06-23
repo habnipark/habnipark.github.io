@@ -2,46 +2,55 @@
   font-family: 'Gaegu', cursive;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
+
 #testPage {
   display: none;
 }
+
 #resultPage {
   display: none;
 }
+
 #Qtitle {
   font-size: 40px;
 }
+
 #Qdescription {
   font-size: 30px;
 }
+
 #A_a {
   font-size: 20px;
 }
+
 #A_b {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 767px){
-  #Qtitle { font-size: 1.4rem; }
-  img { width:50%; }
-}
-@media only screen and (max-width: 767px){
-  #Qdescription { font-size: 1.5rem; }
-   img { width:50%; }
-}
-@media only screen and (max-width: 767px){
-    #A_a{ font-size: 1.25rem; }
-    img { width:50%; }
-}
-@media only screen and (max-width: 767px){
-    #A_b{ font-size: 1.25rem; }
-    img { width:50%; }
-}
-
-
 button {
   width: 95%;
 }
+
 #img {
   margin:0 auto;
+}
+
+@media only screen and (max-width: 767px){
+  #Qtitle { font-size: 1.4rem; }
+  img { width:70%; }
+}
+
+@media only screen and (max-width: 767px){
+  #Qdescription { font-size: 1.5rem; }
+   img { width:70%; }
+}
+
+@media only screen and (max-width: 767px){
+    #A_a{ font-size: 1.25rem; }
+    img { width:70%; }
+}
+
+@media only screen and (max-width: 767px){
+    #A_b{ font-size: 1.25rem; }
+    img { width:70%; }
 }
