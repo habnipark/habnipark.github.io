@@ -25,19 +25,19 @@ body{
 
 @media only screen and (max-width: 767px){
   #Qtitle { font-size: 1.4rem; }
-  #img { width:50%; }
+  img { width:50%; }
 }
 @media only screen and (max-width: 767px){
   #Qdescription { font-size: 1.5rem; }
-   #img { width:50%; }
+   img { width:50%; }
 }
 @media only screen and (max-width: 767px){
     #A_a{ font-size: 1.25rem; }
-   #img { width:50%; }
+    img { width:50%; }
 }
 @media only screen and (max-width: 767px){
     #A_b{ font-size: 1.25rem; }
-   #img { width:50%; }
+    img { width:50%; }
 }
 
 
